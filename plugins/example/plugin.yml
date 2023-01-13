@@ -1,0 +1,5 @@
+name: Example
+version: 0.0.1
+author: ["SnowRunescape"]
+api: ["4.0.0"]
+main: Example\Main

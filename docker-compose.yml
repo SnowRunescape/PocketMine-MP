@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  PocketMine-MP:
+    image: pmmp/pocketmine-mp
+    volumes:
+      - ./data:/data
+      - ./plugins:/plugins
+    ports:
+      - 19132:19132/udp
